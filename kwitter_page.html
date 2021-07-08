@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Room</title>
+</head>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="Logout()">Logout</button>
+    <center>
+        <h1 class="header"> Kwitter <sup> <img src="m2.png"> </sup> </h1>
+    <div id="Name-Room"></div>
+    <br>
+    <div class="input_div_room_page" id="messages"></div>
+    <br>
+    <input id="EnterMessage" placeholder="Type your message here...">
+    <br><br>
+    <button class="btn btn-success" onclick="Send()">Send</button>
+</center>
+</body>
+<script src="kwitter_page.js"></script>
+</html>
